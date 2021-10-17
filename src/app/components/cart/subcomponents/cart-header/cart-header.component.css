@@ -1,0 +1,25 @@
+div.dv-lvl-2.cart-header-container {
+    width: 100%;
+    max-width: 1920px;
+    background: #e3e7e8;
+}
+
+div.dv-lvl-3.cart-header-title-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+p.par-lvl-4.gc-logo {
+    font-size: 3em;
+    font-weight: bold;
+    border-right: 1px solid #e0b05c;
+    padding-right: 50px;
+}
+
+p.par-lvl-4.cart-title {
+    padding-left: 50px;
+    font-size: 2em;
+}

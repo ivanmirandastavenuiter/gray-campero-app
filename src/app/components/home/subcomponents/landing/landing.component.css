@@ -1,0 +1,40 @@
+div.dv-lvl-2.landing-container {
+    width: 100%;
+    max-width: 1920px;
+    height: 600px;
+    background-image: url('/assets/home-bg.jpg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.dv-lvl-3.titles-container {
+    position: relative;
+    top: 30px;
+}
+
+h1.he-lvl-4.title,
+h4.he-lvl-4.subtitle {
+    text-align: center;
+    color: #fff;
+}
+
+h1.he-lvl-4.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+}
+
+h4.he-lvl-4.subtitle {
+    font-family: 'Georama', sans-serif;
+    background: #fff;
+    color: #000;
+    padding: 15px;
+}
+
+h4.he-lvl-4.subtitle span {
+    color: #d31e0f;
+}
+

@@ -1,0 +1,23 @@
+<div class="dv-lvl-2 cart-navbar-container">
+
+    <div class="dv-lvl-3 cart-navbar-items">
+
+        <div class="dv-lvl-4 back-to-shop" [routerLink]="['/home']">
+            <span class="sp-lvl-5 left-arrow">
+                <i class="fas fa-long-arrow-alt-left"></i>
+            </span>
+            <p class="par-lvl-5 back-to-shop-title">Back To Shop</p>
+        </div>
+
+        <div class="dv-lvl-4 total-price-container">
+            <p class="par-lvl-5 total-price-title">Total price:</p>
+            <p class="par-lvl-5 total-price-quantity">{{ totalPrice | number: '1.2-2'  }}€</p>
+        </div>
+
+    </div>
+
+    <div class="dv-lvl-3 confirm-checkout-button-container">
+        <button class="btn-lvl-4 confirm-checkout-button" (click)="confirmCheckout()">Confirm checkout</button>
+    </div>
+
+</div>

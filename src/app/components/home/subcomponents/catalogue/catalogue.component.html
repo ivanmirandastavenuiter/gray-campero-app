@@ -1,0 +1,44 @@
+<div class="dv-lvl-2 catalogue-container">
+
+    <div class="dv-lvl-3 catalogue-title-container">
+
+        <span class="sp-lvl-4 before-bar"></span>
+        <p class="par-lvl-4 title">Feature products</p>
+        <span class="sp-lvl-4 after-bar"></span>
+
+    </div>
+
+    <div class="dv-lvl-3 cards-container">
+
+        <!-- *ngFor="let item of items; index as i; trackBy: trackByFn" -->
+        <div *ngFor="let chunk of chunks; index as i" class="dv-lvl-4 card-row">
+
+            <div *ngFor="let product of chunk; index as j" class="dv-lvl-5 card-item">
+                <div class="dv-lvl-6 card-image" style="background-image: url('assets/{{ product.url }}');"></div>
+                <p class="par-lvl-6 item-name">{{ product.name }}</p>
+                <p class="par-lvl-6 item-description">{{ product.description }}</p>
+                <p class="par-lvl-6 item-price">{{ product.price }}€</p>
+                <p class="par-lvl-6 item-stock">On stock: {{ product.stock }}</p>
+
+                <div class="dv-lvl-6 controls">
+                    <span class="sp-lvl-7 control-minus" (click)="decrementQuantity(product.id)">-</span>
+                    <span class="sp-lvl-7 control-quantity">{{ product.currentQuantity }}</span>
+                    <span class="sp-lvl-7 control-plus" (click)="incrementQuantity(product.id)">+</span>
+                </div>
+
+                <div class="dv-lvl-6 button-cointainer">
+                    <button class="btn-lvl-7 add-button" (click)="updateCart(product.id)">Add</button>
+                </div>
+            </div>
+
+        </div>
+
+        <hr class="hr-lvl-4 separator">
+
+        <div class="dv-lvl-4 cart-button-cointainer">
+            <a [routerLink]="['/cart']" class="btn-lvl-5 cart-button">Go to cart</a>
+        </div>
+
+    </div>
+
+</div>

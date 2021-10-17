@@ -1,0 +1,74 @@
+div.dv-lvl-2.cart-navbar-container {
+    width: 100%;
+    max-width: 1920px;
+    margin: -25px auto;
+    background: #e3e7e8;
+    padding: 1px 0;
+}
+
+div.dv-lvl-3.cart-navbar-items {
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div.dv-lvl-4.back-to-shop {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+span.sp-lvl-5.left-arrow {
+    font-size: 1.3em;
+    margin-right: 40px;
+    color: #e0b05c;
+}
+
+p.par-lvl-5.back-to-shop-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+div.dv-lvl-4.total-price-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 220px;
+}
+
+p.par-lvl-5.total-price-title {
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    color: #e0b05c;
+    margin-right: 50px;
+}
+
+p.par-lvl-5.total-price-quantity {
+    font-size: 1.4em;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 50px;
+    font-weight: bold;
+}
+ 
+div.dv-lvl-3.confirm-checkout-button-container {
+    width: 70%;
+    margin: 20px auto 150px auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+button.btn-lvl-4.confirm-checkout-button {
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #e0b05c;
+    background: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    right: 270px;
+    cursor: pointer;
+}

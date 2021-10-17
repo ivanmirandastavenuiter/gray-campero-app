@@ -1,0 +1,163 @@
+div.dv-lvl-2.catalogue-container {
+    width: 100%;
+    max-width: 1920px;
+}
+
+div.dv-lvl-3.catalogue-title-container {
+    width: 100%;
+    max-width: 1920px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span.sp-lvl-4.before-bar {
+    width: 60px;
+    height: 2px;
+    background: #e0b05c;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+span.sp-lvl-4.after-bar {
+    width: 60px;
+    height: 2px;
+    background: #e0b05c;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+div.dv-lvl-3.cards-container {
+    width: 100%;
+    max-width: 1920px;
+}
+
+div.dv-lvl-4.card-row {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+div.dv-lvl-5.card-item {
+    width: 25%;
+    box-shadow: 0px 0px 3px 0px #e0b05c;
+    margin: 20px;
+}
+
+div.dv-lvl-6.card-image {
+    height: 300px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5px;
+}
+
+p.par-lvl-6.item-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: .9em;
+    margin-left: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p.par-lvl-6.item-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: .8em;
+    margin-left: 5px;
+    margin-top: -10px;
+    color: #8d8e86;
+}
+
+p.par-lvl-6.item-price {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 5px;
+    color: #e0b05c;
+}
+
+p.par-lvl-6.item-stock {
+    font-family: 'Roboto', sans-serif;
+    font-size: .8em;
+    margin-top: -10px;
+    margin-left: 5px;
+    color: #8d8e86;
+}
+
+div.dv-lvl-6.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span.sp-lvl-7.control-minus,
+span.sp-lvl-7.control-quantity,
+span.sp-lvl-7.control-plus {
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 20px;
+}
+
+span.sp-lvl-7.control-quantity {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+span.sp-lvl-7.control-minus,
+span.sp-lvl-7.control-plus {
+    color: #8d8e86;
+    font-size: 1.4em;
+}
+
+div.dv-lvl-6.button-cointainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+button.btn-lvl-7.add-button {
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #e0b05c;
+    background: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 5px 35px 0;
+}
+
+span.sp-lvl-7.control-minus:hover,
+span.sp-lvl-7.control-plus:hover,
+button.btn-lvl-7.add-button:hover {
+    cursor: pointer;
+}
+
+hr.hr-lvl-4.separator { 
+    width: 70%;
+    background-color: #b1b1b1;
+    height: 1px; 
+    border: 0; 
+    margin-bottom: 70px;
+}
+
+div.dv-lvl-4.cart-button-cointainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.btn-lvl-5.cart-button {
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #e0b05c;
+    background: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
+
+

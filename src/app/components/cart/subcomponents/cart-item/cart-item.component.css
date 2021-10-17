@@ -1,0 +1,128 @@
+div.dv-lvl-2.cart-items-container {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    background: #e3e7e8;
+    padding: 50px 0 1px 0;
+}
+
+div.dv-lvl-3.card-container {
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+}
+
+div.dv-lvl-3.cart-item-card {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 50px;
+}
+
+div.dv-lvl-3.cross-container {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p.par-lvl-4.cross {
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #e0b05c;
+    cursor: pointer;
+}
+
+img.img-lvl-4.item-image {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+div.dv-lvl-4.item-name-and-description {
+    position: relative;
+    right: 100px;
+}
+
+p.par-lvl-5.item-name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+p.par-lvl-5.item-description {
+    font-family: 'Georama', sans-serif;
+    color: #8d8e86;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+div.dv-lvl-4.quantity-controls {
+    display: flex;
+    align-items: center;
+}
+
+div.dv-lvl-5.plus-minus-controls {
+    margin-left: 70px;
+}
+
+span.sp-lvl-5.quantity-selected {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+div.dv-lvl-6.plus-control,
+div.dv-lvl-6.minus-control {
+    font-size: 2em;
+    font-weight: bold;
+    background: #e3e7e8;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.dv-lvl-6.plus-control:hover,
+div.dv-lvl-6.minus-control:hover {
+    cursor: pointer;
+}
+
+div.dv-lvl-6.plus-control {
+    margin-bottom: 40px;
+}
+
+span.sp-lvl-7.minus-control {
+    position: relative;
+    bottom: 2px;
+}
+
+div.dv-lvl-4.price-info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p.par-lvl-5.item-price {
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    position: relative;
+    right: 10px;
+}
+
+p.par-lvl-4.item-stock {
+    font-family: 'Roboto', sans-serif;
+    font-size: .8em;
+    color: #8d8e86;
+}
+
+span.sp-lvl-5.price-each {
+    font-family: 'Roboto', sans-serif;
+    font-size: .8em;
+    color: #8d8e86;
+}

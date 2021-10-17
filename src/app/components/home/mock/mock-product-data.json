@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "name": "Bacon",
+        "description": "Amazing yummy bacon",
+        "price": 0.99,
+        "stock": 2,
+        "url": "bacon.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Lettuce",
+        "description": "Amazing yummy lettuce",
+        "price": 0.50,
+        "stock": 4,
+        "url": "lettuce.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Onion",
+        "description": "Amazing yummy onion",
+        "price": 0.25,
+        "stock": 16,
+        "url": "onion.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Cheese",
+        "description": "Amazing yummy cheese",
+        "price": 0.75,
+        "stock": 23,
+        "url": "cheese.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Bacon",
+        "description": "Amazing yummy bacon",
+        "price": 0.99,
+        "stock": 2,
+        "url": "bacon.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Lettuce",
+        "description": "Amazing yummy lettuce",
+        "price": 0.50,
+        "stock": 4,
+        "url": "lettuce.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Onion",
+        "description": "Amazing yummy onion",
+        "price": 0.25,
+        "stock": 16,
+        "url": "onion.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Cheese",
+        "description": "Amazing yummy cheese",
+        "price": 0.75,
+        "stock": 23,
+        "url": "cheese.jpg"
+    }
+]
