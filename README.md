@@ -1,7 +1,7 @@
 ## Gray Campero!
 
 <p align="center">
-  <img src="url here" width=500 alt="GC Landing Page" />
+  <img src="https://github.com/ivanmirandastavenuiter/gray-campero-app/blob/main/gc.png" width=500 alt="GC Landing Page" />
 </p>
 
 <p align="center">  
