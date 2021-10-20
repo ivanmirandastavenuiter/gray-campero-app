@@ -17,11 +17,11 @@
 
 <p align="justify">First of all, the name!</p>
 
-1. How long has it took to build the app?
+***How long has it took to build the app?***
 
 <p align="justify">4 days, pretty much. Most of it done during weekend.</p>
 
-2. Compile and run solution:
+***Compile and run solution:***
 
 <p>For front in angular: </p>
 
@@ -49,7 +49,7 @@ dotnet run
 dotnet ef database update
 ```
 
-3. Assumptions
+***Assumptions***
 
 <p align="justify">A few of them, actually:</p>
 
@@ -62,7 +62,7 @@ dotnet ef database update
 * Cart - User: many to one - one to many
 * Cart - Product: many to one - one to many
 
-4. Design.
+***Design***
 
 <p align="justify">I like sober, elegant user interfaces. White backgrounds with not many details and a light-smart choice for colors. Pretty inspired by platforms like Pinterest</p>
 
