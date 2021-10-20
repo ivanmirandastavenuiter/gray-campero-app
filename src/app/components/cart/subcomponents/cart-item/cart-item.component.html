@@ -1,42 +1,49 @@
-<div class="dv-lvl-2 cart-items-container">
+<div *ngIf="products" class="dv-lvl-2 cart-items-container">
 
     <div *ngFor="let product of products; index as i" class="dv-lvl-3 card-container">
 
-        <div class="dv-lvl-3 cart-item-card">
+        <div *ngIf="isLoaded" class="dv-lvl-3 cart-item-card">
 
-            <img src="assets/{{ product.url }}" width="150" height="150" alt="" class="img-lvl-4 item-image">
-    
+            <img src="assets/{{ product.urlPath }}" width="150" height="150" alt="" class="img-lvl-4 item-image">
+
             <div class="dv-lvl-4 item-name-and-description">
                 <p class="par-lvl-5 item-name">{{ product.name }}</p>
                 <p class="par-lvl-5 item-description">{{ product.description }}</p>
             </div>
-    
-            <p class="par-lvl-4 item-stock">On stock: {{ product.stock}}</p>
-    
+
+            <div class="dv-lvl-4 stock-container">
+                <p class="par-lvl-4 item-stock">On stock: {{ product.stock}}</p>
+                <span *ngIf="product.stock == 0" class="sp-lvl-4 stock-reached">Stock limit reached!</span>
+            </div>
+
             <div class="dv-lvl-4 quantity-controls">
                 <span class="sp-lvl-5 quantity-selected">{{ product.currentQuantity }}</span>
-    
+
                 <div class="dv-lvl-5 plus-minus-controls">
-                    <div class="dv-lvl-6 plus-control" (click)="incrementQuantity(product.id)">+</div>
+                    <div class="dv-lvl-6 plus-control" (click)="incrementQuantity(product.productId)">+</div>
                     <div class="dv-lvl-6 minus-control">
-                        <span class="sp-lvl-7 minus-control" (click)="decrementQuantity(product.id)">-</span>
+                        <span class="sp-lvl-7 minus-control" (click)="decrementQuantity(product.productId)">-</span>
                     </div>
                 </div>
             </div>
-    
+
             <div class="dv-lvl-4 price-info-container">
                 <p class="par-lvl-5 item-price">{{ product.price * product.currentQuantity | number: '1.2-2' }}€</p>
                 <span class="sp-lvl-5 price-each">(each {{ product.price }})</span>
             </div>
-    
+
         </div>
 
         <div class="dv-lvl-3 cross-container">
-            <p class="par-lvl-4 cross" (click)="removeCartItem(product.id)">X</p>
+            <p class="par-lvl-4 cross" (click)="removeCartItem(product.productId)">X</p>
         </div>
-        
+
+    </div>
+
+    <div *ngIf="products.length == 0" class="dv-lvl-3 no-items-message-container">
+        <p class="par-lvl-4 no-items-message">No products in cart yet. Have a look at our catalogue!</p>
     </div>
 
 
-    
+
 </div>

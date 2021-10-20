@@ -33,3 +33,12 @@ p.par-lvl-4.footer-notice-thanks {
     color: #e0b05c;
     font-family: 'Georama', sans-serif;
 }
+
+@media (max-width: 900px) {
+    div.dv-lvl-3.notice-container {
+        top: 50px;
+        left: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+}

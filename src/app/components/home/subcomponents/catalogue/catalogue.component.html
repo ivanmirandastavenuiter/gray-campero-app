@@ -8,27 +8,33 @@
 
     </div>
 
-    <div class="dv-lvl-3 cards-container">
+    <div #checkout class="dv-lvl-3 banner-checkout-container">
+        <p class="par-lvl-4 checkout-done">Checkout confirmed. Please, <b>review your inbox</b> to see more details</p>
+    </div>
 
-        <!-- *ngFor="let item of items; index as i; trackBy: trackByFn" -->
+    <div *ngIf="isLoaded" class="dv-lvl-3 cards-container">
+
         <div *ngFor="let chunk of chunks; index as i" class="dv-lvl-4 card-row">
 
             <div *ngFor="let product of chunk; index as j" class="dv-lvl-5 card-item">
-                <div class="dv-lvl-6 card-image" style="background-image: url('assets/{{ product.url }}');"></div>
+                <div class="dv-lvl-6 card-image" style="background-image: url('assets/{{ product.urlPath }}');"></div>
                 <p class="par-lvl-6 item-name">{{ product.name }}</p>
                 <p class="par-lvl-6 item-description">{{ product.description }}</p>
                 <p class="par-lvl-6 item-price">{{ product.price }}€</p>
-                <p class="par-lvl-6 item-stock">On stock: {{ product.stock }}</p>
+                <p class="par-lvl-6 item-stock">On stock: {{ product.stock }}
+                    <span *ngIf="product.stock == 0" class="sp-lvl-7 stock-reached">Stock limit reached!</span>
+                </p>
 
                 <div class="dv-lvl-6 controls">
-                    <span class="sp-lvl-7 control-minus" (click)="decrementQuantity(product.id)">-</span>
+                    <span class="sp-lvl-7 control-minus" (click)="decrementQuantity(product.productId)">-</span>
                     <span class="sp-lvl-7 control-quantity">{{ product.currentQuantity }}</span>
-                    <span class="sp-lvl-7 control-plus" (click)="incrementQuantity(product.id)">+</span>
+                    <span class="sp-lvl-7 control-plus" (click)="incrementQuantity(product.productId)">+</span>
                 </div>
 
-                <div class="dv-lvl-6 button-cointainer">
-                    <button class="btn-lvl-7 add-button" (click)="updateCart(product.id)">Add</button>
+                <div #ei class="dv-lvl-6 button-cointainer">
+                    <button [attr.disabled]="product.disabled ? '' : null" class="btn-lvl-7 add-button" (click)="upsertCart($event, product.productId)">Add</button>
                 </div>
+                <span #productbanner class="sp-lvl-7 product-added">Product added!</span>
             </div>
 
         </div>
@@ -36,7 +42,7 @@
         <hr class="hr-lvl-4 separator">
 
         <div class="dv-lvl-4 cart-button-cointainer">
-            <a [routerLink]="['/cart']" class="btn-lvl-5 cart-button">Go to cart</a>
+            <a [routerLink]="['/cart']" [queryParams]="{ user: userLogged.userId }" class="btn-lvl-5 cart-button">Go to cart</a>
         </div>
 
     </div>

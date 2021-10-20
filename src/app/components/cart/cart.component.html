@@ -1,5 +1,7 @@
 <div class="dv-lvl-1 main-cart-container">
     <app-cart-header></app-cart-header>
-    <app-cart-item [products]="products" (priceEmitter)="priceEmitter($event)"></app-cart-item>
-    <app-cart-navbar [totalPrice]="totalPrice"></app-cart-navbar>
+    <app-cart-item (priceEmitter)="priceEmitter($event)" (dtoEmitter)="dtoEmitter($event)" (showEmitter)="showEmitter($event)" [userLogged]="userLogged">
+    </app-cart-item>
+    <app-cart-navbar [totalPrice]="totalPrice" [show]="show" [inputUpdateDtos]="inputUpdateDtos" [userLogged]="userLogged">
+    </app-cart-navbar>
 </div>

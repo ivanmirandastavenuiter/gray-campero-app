@@ -13,6 +13,7 @@ div.dv-lvl-3.card-container {
 }
 
 div.dv-lvl-3.cart-item-card {
+    min-width: 870px;
     width: 90%;
     display: flex;
     justify-content: space-between;
@@ -22,6 +23,7 @@ div.dv-lvl-3.cart-item-card {
 }
 
 div.dv-lvl-3.cross-container {
+    min-width: 100px;
     width: 10%;
     display: flex;
     justify-content: center;
@@ -125,4 +127,25 @@ span.sp-lvl-5.price-each {
     font-family: 'Roboto', sans-serif;
     font-size: .8em;
     color: #8d8e86;
+}
+
+span.sp-lvl-4.stock-reached {
+    font-size: 0.6em;
+    color: #d30000;
+    text-transform: uppercase;
+}
+
+div.dv-lvl-3.no-items-message-container {
+    width: 70%;
+    margin: 20px auto;
+}
+
+p.par-lvl-4.no-items-message {
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 1000px) {
+    div.dv-lvl-4.item-name-and-description {
+        position: inherit;
+    }
 }

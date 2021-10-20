@@ -9,15 +9,18 @@
             <p class="par-lvl-5 back-to-shop-title">Back To Shop</p>
         </div>
 
-        <div class="dv-lvl-4 total-price-container">
+        <div *ngIf="show" class="dv-lvl-4 total-price-container">
             <p class="par-lvl-5 total-price-title">Total price:</p>
-            <p class="par-lvl-5 total-price-quantity">{{ totalPrice | number: '1.2-2'  }}€</p>
+            <p class="par-lvl-5 total-price-quantity">{{ totalPrice | number: '1.2-2' }}€</p>
         </div>
 
     </div>
 
-    <div class="dv-lvl-3 confirm-checkout-button-container">
-        <button class="btn-lvl-4 confirm-checkout-button" (click)="confirmCheckout()">Confirm checkout</button>
+    <div *ngIf="show" class="dv-lvl-3 confirm-checkout-button-container">
+        <button class="btn-lvl-4 confirm-checkout-button" (click)="confirmCheckout($event)">Confirm checkout</button>
+        <span class="sp-lvl-4 loading-checkout">Confirming checkout... 
+            <i class="fas fa-spinner"></i>
+        </span>
     </div>
 
 </div>

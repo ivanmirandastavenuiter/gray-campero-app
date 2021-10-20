@@ -39,11 +39,13 @@ div.dv-lvl-3.cards-container {
 div.dv-lvl-4.card-row {
     width: 80%;
     display: flex;
+    flex-flow: wrap;
     justify-content: center;
     margin: 0 auto;
 }
 
 div.dv-lvl-5.card-item {
+    min-width: 265px;
     width: 25%;
     box-shadow: 0px 0px 3px 0px #e0b05c;
     margin: 20px;
@@ -134,11 +136,11 @@ button.btn-lvl-7.add-button:hover {
     cursor: pointer;
 }
 
-hr.hr-lvl-4.separator { 
+hr.hr-lvl-4.separator {
     width: 70%;
     background-color: #b1b1b1;
-    height: 1px; 
-    border: 0; 
+    height: 1px;
+    border: 0;
     margin-bottom: 70px;
 }
 
@@ -160,4 +162,50 @@ a.btn-lvl-5.cart-button {
     color: #000;
 }
 
+span.sp-lvl-7.stock-reached {
+    font-size: 0.7em;
+    color: #d30000;
+    text-transform: uppercase;
+}
 
+span.sp-lvl-7.product-added {
+    font-family: 'Roboto', sans-serif;
+    color: #84b51e;
+    font-size: .7em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    bottom: 22px;
+    border: 1px solid #84b51e;
+    width: 50%;
+    padding: 6px;
+    display: none;
+}
+
+p.par-lvl-4.checkout-done {
+    font-family: 'Roboto', sans-serif;
+    color: #84b51e;
+    font-size: .7em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    bottom: 22px;
+    border: 1px solid #84b51e;
+    width: 50%;
+    padding: 6px;
+}
+
+div.dv-lvl-3.banner-checkout-container {
+    margin-top: 20px;
+    display: none;
+}
+
+@media (min-width: 1000px) {
+    div.dv-lvl-4.card-row {
+        flex-wrap: nowrap;
+    }
+}

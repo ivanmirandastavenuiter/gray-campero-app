@@ -1,9 +1,10 @@
 export interface Product {
-    id: number;
+    productId: number;
     name: string;
     description: string;
     price: number;
     stock: number;
-    url: string;
+    urlPath: string;
     currentQuantity: number;
+    disabled: boolean;
 }
