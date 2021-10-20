@@ -107,6 +107,15 @@ dotnet ef database update
 
 ## Versions
 
+## Status for acceptance criteria
+
+* <p>App fully working - All user stories completed</p>
+* <p>Performance not tested yet - In progress</p>
+
+## Extra jobs
+
+<p align="justify">I'd like to deploy app with docker, but couldn't because of time</p>
+
 * <p>1.0</p>
 
 ## Branches 
