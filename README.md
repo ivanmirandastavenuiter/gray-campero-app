@@ -128,7 +128,7 @@ dotnet ef database update
 
 * <p>Users graph</p>
 
-<p align="center">
+<p>
   <img src="https://github.com/ivanmirandastavenuiter/gray-campero-app/blob/main/locust/pics/lc-3.png" width=500 alt="lc-3" />
 </p>
 
