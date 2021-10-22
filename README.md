@@ -115,7 +115,7 @@ dotnet ef database update
 * <p>Domain: http://localhost:4200 (angular server)</p>
 
 <p align="center">
-  <img src="" width=500 alt="lc-1" />
+  <img src="https://github.com/ivanmirandastavenuiter/gray-campero-app/blob/main/locust/pics/lc-1.png" width=500 alt="lc-1" />
 </p>
 
 <p align="justify">Results:</p>
@@ -123,19 +123,13 @@ dotnet ef database update
 * <p>0 failures, 100% success</p>
 
 <p align="center">
-  <img src="" width=500 alt="lc-1" />
-</p>
-
-* <p>RPS (Requests per second)</p>
-
-<p align="center">
-  <img src="" width=500 alt="lc-1" />
+  <img src="https://github.com/ivanmirandastavenuiter/gray-campero-app/blob/main/locust/pics/lc-2.png" width=500 alt="lc-2" />
 </p>
 
 * <p>Users graph</p>
 
 <p align="center">
-  <img src="" width=500 alt="lc-1" />
+  <img src="https://github.com/ivanmirandastavenuiter/gray-campero-app/blob/main/locust/pics/lc-3.png" width=500 alt="lc-3" />
 </p>
 
 * <p><a href="https://docs.microsoft.com/es-es/aspnet/core/performance/performance-best-practices?view=aspnetcore-5.0">Recommended practices on ASP NET Core</a></p>
