@@ -103,9 +103,46 @@ dotnet ef database update
 ## Performance tests
 
 * <p><a href="https://locust.io/">Locust testing platform</a></p>
+
+### Performance load test results
+
+<p align="justify">Locust tool has been used to perform load test against gc app. Results showed a 100% of success and 0 failures, which is good!</p>
+
+<p align="justify">Parameters:</p>
+
+* <p>Concurrent users: 150</p>
+* <p>User insertion rate: 0.5 s</p>
+* <p>Domain: http://localhost:4200 (angular server)</p>
+
+<p align="center">
+  <img src="" width=500 alt="lc-1" />
+</p>
+
+<p align="justify">Results:</p>
+
+* <p>0 failures, 100% success</p>
+
+<p align="center">
+  <img src="" width=500 alt="lc-1" />
+</p>
+
+* <p>RPS (Requests per second)</p>
+
+<p align="center">
+  <img src="" width=500 alt="lc-1" />
+</p>
+
+* <p>Users graph</p>
+
+<p align="center">
+  <img src="" width=500 alt="lc-1" />
+</p>
+
 * <p><a href="https://docs.microsoft.com/es-es/aspnet/core/performance/performance-best-practices?view=aspnetcore-5.0">Recommended practices on ASP NET Core</a></p>
 
 ## Versions
+
+* <p>1.0</p>
 
 ## Status for acceptance criteria
 
@@ -115,8 +152,6 @@ dotnet ef database update
 ## Extra jobs
 
 <p align="justify">I'd like to deploy app with docker, but couldn't because of time</p>
-
-* <p>1.0</p>
 
 ## Branches 
 

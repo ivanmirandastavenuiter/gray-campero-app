@@ -1,0 +1,10 @@
+{
+    "/home": {
+        "target": "http://localhost:4200",
+        "secure": false
+    },
+    "/cart": {
+        "target": "http://localhost:4200",
+        "secure": false
+    }
+}

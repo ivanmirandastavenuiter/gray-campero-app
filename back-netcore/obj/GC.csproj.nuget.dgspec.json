@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\IMS\\Desktop\\GC\\gc-netcore-api\\GC\\GC.csproj": {}
+    "C:\\Users\\IMS\\Desktop\\GC\\gray-campero-app\\back-netcore\\GC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\IMS\\Desktop\\GC\\gc-netcore-api\\GC\\GC.csproj": {
+    "C:\\Users\\IMS\\Desktop\\GC\\gray-campero-app\\back-netcore\\GC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\IMS\\Desktop\\GC\\gc-netcore-api\\GC\\GC.csproj",
+        "projectUniqueName": "C:\\Users\\IMS\\Desktop\\GC\\gray-campero-app\\back-netcore\\GC.csproj",
         "projectName": "GC",
-        "projectPath": "C:\\Users\\IMS\\Desktop\\GC\\gc-netcore-api\\GC\\GC.csproj",
+        "projectPath": "C:\\Users\\IMS\\Desktop\\GC\\gray-campero-app\\back-netcore\\GC.csproj",
         "packagesPath": "C:\\Users\\IMS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\IMS\\Desktop\\GC\\gc-netcore-api\\GC\\obj\\",
+        "outputPath": "C:\\Users\\IMS\\Desktop\\GC\\gray-campero-app\\back-netcore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\IMS\\AppData\\Roaming\\NuGet\\NuGet.Config"

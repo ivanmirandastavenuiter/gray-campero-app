@@ -3,6 +3,42 @@ div.dv-lvl-2.catalogue-container {
     max-width: 1920px;
 }
 
+div.dv-lvl-2.loading-products-container {
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i.fas.fa-spinner {
+    margin-left: 10px;
+    animation: spinner 1.4s infinite linear;
+}
+
+@keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+p.par-lvl-3.loading-products {
+    width: 30%;
+    margin: 50px auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #e0b05c;
+    border: 1px solid #e0b05c;
+    padding: 10px;
+}
+
 div.dv-lvl-3.catalogue-title-container {
     width: 100%;
     max-width: 1920px;

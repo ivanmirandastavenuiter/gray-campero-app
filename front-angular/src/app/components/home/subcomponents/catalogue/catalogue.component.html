@@ -1,4 +1,10 @@
-<div class="dv-lvl-2 catalogue-container">
+<div *ngIf="isLoaded == false" class="dv-lvl-2 loading-products-container">
+    <p class="par-lvl-3 loading-products">Loading products
+        <i class="fas fa-spinner"></i>
+    </p>
+</div>
+
+<div *ngIf="isLoaded" class="dv-lvl-2 catalogue-container">
 
     <div class="dv-lvl-3 catalogue-title-container">
 
@@ -12,7 +18,7 @@
         <p class="par-lvl-4 checkout-done">Checkout confirmed. Please, <b>review your inbox</b> to see more details</p>
     </div>
 
-    <div *ngIf="isLoaded" class="dv-lvl-3 cards-container">
+    <div class="dv-lvl-3 cards-container">
 
         <div *ngFor="let chunk of chunks; index as i" class="dv-lvl-4 card-row">
 

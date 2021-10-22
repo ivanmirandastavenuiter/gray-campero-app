@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vXju8OCR9SypJfgeMS32K83puhDEClPwWbqa6/WdhGnt4W06Hi6NxtcV8esW0+Y6IxgITr7wfC1tB4brHSE2dQ==",
+  "dgSpecHash": "DqMPUGTmjRbWyd+GeoIWCBzc3Gp2gCOtsVCA4KZtfsKBupY5vJeS3KZDqE0Conne/hrtDXz5bwG+nb3Ex51fFA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\IMS\\Desktop\\GC\\gc-netcore-api\\GC\\GC.csproj",
+  "projectFilePath": "C:\\Users\\IMS\\Desktop\\GC\\gray-campero-app\\back-netcore\\GC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\IMS\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\IMS\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
