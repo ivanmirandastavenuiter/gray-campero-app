@@ -128,9 +128,9 @@ dotnet ef database update
 
 * <p>Users graph</p>
 
-<p>
+
   <img src="https://github.com/ivanmirandastavenuiter/gray-campero-app/blob/main/locust/pics/lc-3.png" width=500 alt="lc-3" />
-</p>
+
 
 * <p><a href="https://docs.microsoft.com/es-es/aspnet/core/performance/performance-best-practices?view=aspnetcore-5.0">Recommended practices on ASP NET Core</a></p>
 
